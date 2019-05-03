@@ -19,14 +19,30 @@
 
 /* ------------------------------ Header ------------------------------ */
 
-    .logo a img {
+    .header-container {
+        width: 100%;
+        transform: translate(-1%);
+        padding: 2%;
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+    .logo {
+        width: 300px;
+        margin: 0 10%;
+    }
+    .logo h2 {
+        font: 27px Muli, Squada;
+        color: #2c2a2b;
+    }
+    /* .logo a img {
         width: 300px;
         margin: 10px 0 0 120px;
         float: left;
-    }
+    } */
 /* --------------- Navigaton --------------- */
 
-    .toggle-nav {
+    /* .toggle-nav {
     	display: none;
     }
    .nav-container {
@@ -56,24 +72,37 @@
    }
    .menu a:hover, .menu .current-item a {
 	    color: #fab33c;
-    }
+    } */
 
     /* ------------------------------ main content ------------------------------ */
     .main-container {
         clear: both;
     }
    .main {
+       background: url("img/setup/logo_CF_tilePlaceholder.jpg") 50% fixed;
         clear: left;
         margin: 0 3% 0 2%;
-        padding: 60px 20% 40px;
+        padding: 40px 20% 40px;
+  }
+   /* .welcome_image {
+       margin: auto;
    }
+   .main img {
+       width: 100%;
+       position: relative;
+   } */
    .main h1 {
         font: 30px Muli, Squada;
         color: #0096cf;
+        text-align: center;
+        /* position: absolute; */
    }
    .main p {
         font: 16px Muli, Squada;
         color: rgba(44, 42, 43, 1);
+        text-align: center;
+        /* position: relative; */
+        top: 80px;
    }
 
    /* ------------------------------ Footer ------------------------------ */
