@@ -2,9 +2,7 @@
       written April 2019 by Cristal Fernett
     ================================================================= */
     html {
-        color: ;
-        font-size: ;
-        line-height: ;
+
     }
 
 
@@ -12,13 +10,11 @@
 /* ===========================================
       Author's custom styles
     =========================================== */
-
     body {
         width: 100%;
     }
 
-/* ------------------------------ Header ------------------------------ */
-
+    /* ------------------------------ Header ------------------------------ */
     .header-container {
         width: 100%;
         transform: translate(-1%);
@@ -40,260 +36,103 @@
         margin: 10px 0 0 120px;
         float: left;
     } */
-/* --------------- Navigaton --------------- */
-
-    /* .toggle-nav {
-    	display: none;
-    }
-   .nav-container {
-        margin-right: 5%;
-   }
-   .menu {
-       margin: 0 9% 0 0;
-       float: right;
-   }
-   .menu ul {
-       display: inline-block;
-   }
-   .menu li {
-       display: inline-block;
-       margin: 20px;
-       font: 15px/26px Muli, Squada;
-	   list-style: none;
-   }
-    .menu li:last-child {
-        margin-right: 0;
-    }
-   .menu a {
-        text-decoration: none;
-        color: rgba(0, 150, 207, 1);
-        font-weight: normal;
-        transition: color linear 0.15s;
-   }
-   .menu a:hover, .menu .current-item a {
-	    color: #fab33c;
-    } */
 
     /* ------------------------------ main content ------------------------------ */
     .main-container {
         clear: both;
     }
    .main {
-        background: url("img/setup/logo_CF_tilePlaceholder.jpg") 50% fixed;
         clear: left;
         margin: 0 3% 0 2%;
         padding: 40px 20% 40px;
-  }
-   /* .welcome_image {
+    }
+   .welcome_image {
        margin: auto;
-   }
+       width: 30%;
+    }
    .main img {
        width: 100%;
-       position: relative;
-   } */
+    }
    .main h1 {
         font: 30px Muli, Squada;
         color: #0096cf;
         text-align: center;
-   }
+    }
    .main p {
         font: 16px Muli, Squada;
         color: rgba(44, 42, 43, 1);
         text-align: center;
-        /* position: relative; */
         top: 80px;
-   }
+    }
 
    /* ------------------------------ Footer ------------------------------ */
    .footer-container {
         clear: right;
-   }
+    }
    .footer-container footer {
         color: rgba(44, 42, 43, 1);
         padding: 20px 0;
         text-align: center;
-   }
+    }
    .footer-container .wrapper {
        margin: 0 3% 0 2%;
-   }
+    }
    .footer-container .wrapper .credit {
        margin: 3px 0;
-   }
+    }
    .footer-container footer a {
        text-decoration: none;
        color: rgba(0, 150, 207, 1);
        font-weight: 600;
-   }
+    }
    .footer-container footer a:hover {
        color: #fab33c;
-   }
+    }
    .credit {
        color: rgba(44, 42, 43, 1);
        text-align: center;
        margin: 40px 0 34px 0;
        font: lighter 13px/26px Muli, Squada;
-   }
+    }
 
 
 
 /* ===========================================
       Media styles
     =========================================== */
+    @media (min-width:320px)/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ (min-width:480px)/* smartphones, Android phones, landscape iPhone */ {
 
-@media (min-width:320px)/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ (min-width:480px)/* smartphones, Android phones, landscape iPhone */ {
+    }
 
-}
+    @media only screen and (max-width:599px) {
 
-@media only screen and (max-width:599px) {
-    .menu {
-        float: right;
-        border-radius: 3px;
     }
-    .toggle-nav {
-        padding: 9px;
-        float: left;
-        display: inline-block;
-        box-shadow: 2px 3px 4px rgba(0,0,0,0.11);
-        border-radius: 4px;
-        background: #white;
-        text-shadow: 0px 1px 0px rgba(0,0,0,0);
-        color: #777;
-        font-size: 20px;
-        transition: color linear 0.15s;
-    }
-    .toggle-nav:hover, .toggle-nav.active {
-        text-decoration: none;
-        color: #ee6221;
-    }
-    .menu a:hover, .menu .current-item a {
-         color: #ee6221;
-     }
-    .menu {
-        position: relative;
-        display: inline-block;
-    }
-    .menu ul.active {
-        display: none;
-    }
-    .menu ul {
-        width: 500%;
-        position: absolute;
-        top: 50%;
-        left: -500%;
-        padding: 10px 18px;
-        box-shadow: 0px 1px 1px rgba(0,0,0,0.15);
-        border-radius: 7px;
-        background: rgba(183,185,187,0.92);
-    }
-    .menu ul:after {
-        width: 0px;
-        height: 0px;
-        position: absolute;
-        top: 0%;
-        left: 12px;
-        content: '';
-        transform: translate(1800%, -100%);
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-bottom: 7px solid rgba(0,0,0,0.23);
-    }
-    .menu li {
-        margin: 10px 0px;
-        float: none;
-        display: block;
-        text-align: center;
-    }
-    .menu a {
-        display: block;
-    }
-}
 
-@media (min-width:600px) /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ {
+    @media (min-width:600px) /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ {
 
-}
+    }
 
-@media (min-width:801px) /* tablet, landscape iPad, lo-res laptops ands desktops */ {
+    @media (min-width:801px) /* tablet, landscape iPad, lo-res laptops ands desktops */ {
 
-}
+    }
 
-@media only screen and (min-width:600px) and (max-width:800px) {
-    .menu {
-        float: right;
-        border-radius: 3px;
-    }
-    .toggle-nav {
-        padding: 9px;
-        float: left;
-        display: inline-block;
-        box-shadow: 2px 3px 4px rgba(0,0,0,0.11);
-        border-radius: 4px;
-        background: #white;
-        text-shadow: 0px 1px 0px rgba(0,0,0,0);
-        color: #777;
-        font-size: 20px;
-        transition: color linear 0.15s;
-    }
-    .toggle-nav:hover, .toggle-nav.active {
-        text-decoration: none;
-        color: green;
-    }
-    .menu a:hover, .menu .current-item a {
-         color: green;
-     }
-    .menu {
-        position: relative;
-        display: inline-block;
-    }
-    .menu ul.active {
-        display: none;
-    }
-    .menu ul {
-        width: 500%;
-        position: absolute;
-        top: 50%;
-        left: -500%;
-        padding: 10px 18px;
-        box-shadow: 0px 1px 1px rgba(0,0,0,0.15);
-        border-radius: 7px;
-        background: rgba(183,185,187,0.92);
-    }
-    .menu ul:after {
-        width: 0px;
-        height: 0px;
-        position: absolute;
-        top: 0%;
-        left: 12px;
-        content: '';
-        transform: translate(1800%, -100%);
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-bottom: 7px solid rgba(0,0,0,0.23);
-    }
-    .menu li {
-        margin: 10px 0px;
-        float: none;
-        display: block;
-        text-align: center;
-    }
-    .menu a {
-        display: block;
-    }
-}
+    @media only screen and (min-width:600px) and (max-width:800px) {
 
-@media (min-width:1025px) /* big landscape tablets, laptops, and desktops */ {
+    }
 
-}
+    @media (min-width:1025px) /* big landscape tablets, laptops, and desktops */ {
 
-@media (min-width:1281px) /* hi-res laptops and desktops */ {
+    }
 
-}
+    @media (min-width:1281px) /* hi-res laptops and desktops */ {
+
+    }
 
 
 
 /* ===========================================
       Print styles     * paged media/print preview *
     =========================================== */
-
     @media print {
 
     }
